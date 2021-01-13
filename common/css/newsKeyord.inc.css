@@ -1,0 +1,15 @@
+/***关键字***/
+.keyWords{clear:both; border:#ace0de 1px solid; padding:5px 10px; overflow: hidden;zoom:1;}
+.keyWords h3{ font-size:12px; font-weight:bold;color:#19938b; float:left; display:inline}
+.keyWords ul{display:block;zoom:1;overflow:hidden;white-space:normal; }
+.keyWords li{ display:inline-block;*display:inline; zoom:1; padding:0px 5px;overflow:hidden; }
+.keyWords li a{color:#898989;white-space:nowrap;}
+/***设为首页***/
+body .HpFav{ clear:both;  overflow:hidden; width:900px; margin-left:auto; margin-right:auto;}
+.HpFav ul{ padding:0px 0px 0px 40px; margin:0px; list-style:none; overflow:hidden;border:solid 1px #d6d6d6;zoom:1;}
+.HpFav  li{ float:left; display:inline;margin:0px;padding:0px; overflow:hidden; width:303px;}
+.HpFav  li a{color:#494949; font-weight:bold; font-size:14px; display:block; padding:21px 0px 19px 31px;background:url(../../style/common/images/HpFav.gif) no-repeat; text-align:left; display:block;overflow:hidden}
+.HpFav  li.eq3{ width:250px;}
+.HpFav  li.eq1 a{background-position:left 2px; }
+.HpFav  li.eq2 a{background-position:left -97px;}
+.HpFav  li.eq3 a{background-position:left -197px;}

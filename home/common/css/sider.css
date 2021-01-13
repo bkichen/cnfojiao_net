@@ -1,0 +1,12 @@
+
+.pic_c1,.pic_c2,.pic_c3,.pic_c4,.pic_c8{padding:0;overflow:hidden;zoom:1;}
+.pic_c1 ul,.pic_c2 ul,.pic_c3 ul,.pic_c4 ul,.pic_c8 ul{ margin:0; padding:0; overflow:hidden; zoom:1;}
+.pic_c1 li,.pic_c2 li,.pic_c3 li,.pic_c4 li,.pic_c8 li{padding:0;overflow:hidden;zoom:1; vertical-align: bottom;}
+.pic_c1{ margin:-5px 0 0 -5px; }
+.pic_c1 li{ margin:5px 0 0 5px;}
+.pic_c2{ margin:-5px 0 0 -5px;}
+.pic_c2 li{ margin:5px 0 0 5px;float:left; display:inline;}
+.pic_c4{ margin:-5px 0 0 -5px;}
+.pic_c4 li{ margin:5px 0 0 5px;float:left; display:inline;}
+.pic_c8{ margin:-5px 0 0 -5px;}
+.pic_c8 li{ margin:5px 0 0 5px;float:left; display:inline;}

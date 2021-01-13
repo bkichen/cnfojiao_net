@@ -1,0 +1,226 @@
+
+@import url("../../../common/css/newsKeyord.inc.css");
+.keyWords ul{ max-width:544px;}
+/************BG STYLE************/
+.newsHot ul { background:url(../../../common/images/main_bg.gif) no-repeat }
+.newsDetailIn { background:url(../../../product/images/productinfo_bg.gif) no-repeat }
+.newsDetailIn .title { background:url(../../../common/images/h_x_line2.gif) no-repeat }
+/************TEXT STYLE************/
+.companyBrand li, .companyCateHot li { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; /* for IE */ -o-text-overflow: ellipsis; /* for Opera */ -icab-text-overflow: ellipsis; /* for iCab */ -khtml-text-overflow: ellipsis; /* for Konqueror Safari */ -moz-text-overflow: ellipsis; /* for Firefox,mozilla */ -webkit-text-overflow: ellipsis; /* for Safari,Swift*/ }
+/************TEXT STYLE************/
+.fTextarea { height:50px; border:#ccc 1px solid; background:#fff; line-height:14px; color:#333 }
+.fText { height:17px; border:#ccc 1px solid; padding:0 5px; line-height:17px; color:#ccc }
+/************MAIN STYLE************/
+.newsHot { padding:10px 15px }
+.newsHot ul { background-position:-287px -478px; padding-left:20px }
+.newsHot li { line-height:28px; height:28px; overflow:hidden }
+.newsProduct { padding:10px 15px }
+.newsProduct li { line-height:25px; height:25px; overflow:hidden; color:#999 }
+.newsProduct li a { color:#666 }
+.feedback { clear:both; border:#d6d6d6 1px solid; padding:5px 10px }
+.feedback li { padding:3px 0; vertical-align:bottom }
+.newsTop { clear:both; border:#ace0de 1px solid; padding:5px; overflow:auto; *display:inline-block
+}
+.newsTop .fl { width:302px }
+.newsTop .fr { width:316px }
+.newsTop .fr h1 { padding:10px 0; line-height:25px; font-weight:bold; font-size:14px; color:#19938b }
+.newsTop .fr h1 a { color:#19938b }
+.newsTop .fr li { line-height:25px; height:25px; overflow:hidden; color:#666 }
+.newsLogo { clear:both; overflow:auto; *display:inline-block
+}
+.newsLogo p { float:left; width:18px; padding:20px 0 0 }
+.newsLogo ul { float:right; width:610px; border:#e5e5e5 1px solid; padding:3px 5px }
+.newsLogo li { float:left; display:inline; width:122px; padding:3px 0; vertical-align:bottom; text-align:center }
+.newsPart { clear:both; overflow:auto; *display:inline-block
+}
+.newsPart .fl, .newsPart .fr { width:304px }
+.newsBlock { padding:10px 15px }
+.newsBlock li { line-height:25px; height:25px; overflow:hidden; color:#999 }
+.newsBlock li a { color:#666 }
+.newsList { padding:20px }
+.newsList li { height:25px; line-height:25px; color:#999; vertical-align:bottom }
+.newsList li b { float:left; font-weight:normal }
+.newsList li span { float:right }
+.newsDetailOut { clear:both; border:#ace0de 1px solid; padding:3px }
+.newsDetailIn { background-repeat:repeat-x }
+.newsDetailIn .title { clear:both; height:25px; padding:20px 20px 40px; background-position:left bottom; background-repeat:repeat-x; position:relative }
+.newsDetailIn .title h1 { line-height:25px; font-size:14px; font-weight:bold; color:#19938b; text-align:center }
+.newsDetailIn .title h6 { background:#f4f4f4; padding:0 10px; line-height:25px; color:#666; position:absolute; right:20px; bottom:1px }
+.newsDetailIn .content { clear:both; padding:20px; line-height:25px; font-size:14px; color:#444 }
+.newsDetailIn .content,.newsDetailIn .content a{color:#444 }
+.newsDetailIn .prompt { clear:both; padding:20px; line-height:25px; color:#f60 }
+
+/* 2010-12-6 154 add */
+/************************
+ mainGlossary Style
+ ************************/
+.content_main{ margin:auto;  margin-top:10px;}
+.tit_ma{ float:left; width:640px;}
+.tit_mb{ float:left; width:640px; border:1px solid #d8d8d8;}
+.tit_tit{ margin:auto; padding:15px 0 10px 0; font-size:18px; font-weight:bold; border-bottom:1px solid #d8d8d8; color:#3366CC;}
+.tit_date{ margin:auto; padding-bottom:10px; line-height:22px; color:#999;}
+.tit_ti{ width:550px; line-height:22px; padding:10px; border:1px solid #d8d8d8; text-align:left; color:#999;}
+.tit_center{ margin:auto; padding:10px 20px 20px 20px; text-align:left; line-height:20px;}
+.tit_dibu{ margin:auto; padding:20px; text-align:left; line-height:20px;}
+.tit_it{ border:1px solid #ace0de;background:#f2f9f9 url(../images/mainGlossary_leftTd.jpg) repeat-y 180px top; height:30px; line-height:30px; color:#19938b; font-weight:bold;overflow:hidden}
+.tit_it_a,.tit_it_b{float:left; text-align:center;   overflow:hidden}
+.tit_it_a{ width:180px;}
+.tit_it_b{ width:456px;border-left:0px solid #ace0de;}
+.tit_list_id{ margin-top:10px; border:1px solid #ace0de; overflow:hidden; *display:inline-block; background:url(../images/mainGlossary_leftTd.jpg) repeat-y 180px top;  clear:both;}
+.tit_list_ida{ float:left; padding:2px 0 0 10px; width:171px;  line-height:25px; text-align:left; }
+.tit_list_ida/*IE5*/{＞width:181px;}
+
+.tit_list_idb{ float:left; padding:2px 10px 0 10px; width:436px; line-height:25px; text-align:left; border-left:0px solid #ace0de;}
+.tit_ztk{ padding:10px;}
+.tit_id{ margin:auto; padding:10px 20px 0 10px; text-align:left; border-top:1px solid #d8d8d8; line-height:20px;}
+.tit_zw{ margin:auto; padding:10px 20px 0 10px; text-align:left; line-height:20px;}
+.tit_end{ margin:auto; height:20px;}
+.ri_zx{ float:right; margin:auto; width:250px;}
+.ri_gg{ float:right; margin:auto; width:250px;}
+.ri_link{ margin-top:5px; border-bottom:1px solid #d8d8d8; line-height:30px; color:#888;}
+.ri_kd { padding-top:15px; line-height:30px;}
+.ri_kd a:visited{ color:#888;}
+.ri_ks{ font-size:13px; margin-top:12px; text-align:left; line-height:20px;}
+.ri_ks h1 a:visited{ font-size:12px; font-family:"Verdana";}
+.ri_ks h3{ font-size:15px; line-height:25px;}
+.ri_ks a:visited{ text-decoration:underline;color:#0E37A9; }
+div.green-black { padding-right: 3px; padding-left: 3px; padding-bottom: 3px; margin: 3px; padding-top: 3px; text-align: center}
+div.green-black a {	border: #f3f3f3 1px solid; padding-right: 5px; padding-left: 5px; margin-right: 4px; padding-top: 2px; text-decoration: none}
+div.green-black a:hover { border: #19938b 1px solid; background: url(http://foojoo.com.style.b2b.biz/style/news/css/pagebg.gif) #19938b; color: #fff;}
+div.green-black a:active { border: #19938b 1px solid; background: url(http://foojoo.com.style.b2b.biz/style/news/css/pagebg.gif) #19938b; color: #fff; }
+div.green-black span.current { padding-right: 5px; border: #19938b 1px solid; padding-left: 5px; font-weight: bold; background: url(http://foojoo.com.style.b2b.biz/style/news/css/image2.gif) #19938b; color: #fff; margin-right: 4px; padding-top: 2px; }
+div.green-black span.current a:hover { color: #fff; }
+div.green-black span.disabled {	padding:2px 5px 0 5px; border: #f3f3f3 1px solid; margin-right: 4px; }
+div.green-black span.page {	padding:2px 5px 0 5px; border: #f3f3f3 1px solid; margin-right: 4px; }
+div.green-black span.home_ys { padding:2px 5px 0 5px; border: #f3f3f3 1px solid; color: #ccc; margin-right: 4px; }
+div.green-black span.up_ys { padding:2px 5px 0 5px; border: #f3f3f3 1px solid; color: #ccc; margin-right: 4px; }
+.ri_contact{ border:1px solid #d8d8d8;}
+.ri_titks{ margin:1px; padding:10px 0 0 10px; text-align:left; color:#0066CC; font-weight:bold; height:20px; background:#f6f6f6;}
+ul.tit_contact { padding-bottom:5px; text-align:left;}
+.tit_contact li{ padding:5px 0 0 10px; line-height:25px; color:#888; list-style-type:none;}
+.tit_contact a:visited{text-decoration:underline;color:#0E37A9;}
+.tit_contact a:hover {text-decoration:underline; color: #bc2931;}
+.tit_line { clear: both; overflow:hidden; margin:15px 0 12px 0; width:98%; height:1px; border-top:1px dotted #d8d8d8;}
+.ri_gggg{ margin:auto; border:1px solid #d8d8d8; padding:10px; background:#f6f6f6;}
+.ri_proks{ border:1px solid #ace0de; border-top:0px;background:url(../../../common/images/main_bg.gif) no-repeat;background-position:0 -29px;}
+.ri_protit{ margin:1px; margin-left:10px; padding:0px 0 0 15px; text-align:left; color:#349F98; font-weight:bold; line-height:28px;display:block; background:url(../../../common/images/main_bg.gif) no-repeat; background-position:-291px -420px}
+.ri_main { margin:auto;  background:#FFFFFF; overflow:hidden}
+.ri_wb { margin:auto; }
+.sy_yb_a{ padding:8px 0 0 5px; height:180px; border-top:0px solid #d8d8d8;}
+ul.sy_yb_b{ clear:both;}
+ul.sy_yb_b li{ float:left; line-height:25px; list-style-type:none;}
+ul.sy_yb_b li{ width:55px;}
+ul.sy_yb_b span{ color:#666;}
+ul.sy_yb_c{ clear:both;}
+ul.sy_yb_c li{ float:left; padding-left:10px; line-height:25px; text-align:left; list-style-type:none;}
+ul.sy_yb_c li{ width:180px;}
+ul.sy_yb_c span{ color:#666;}
+
+
+/************************
+ mainTranslation Style
+ ************************/
+.mainTranslation{ margin-top:10px;clear:both;  font:12px/150% Arial, Helvetica, sans-serif; color:#333; text-align:left; overflow: hidden; *display:inline-block}
+.mainTranslation .left { float:left }
+.mainTranslation .right { float:right }
+.mainTranslation .transWrap a { color:#333; text-decoration:none }
+.mainTranslation .transWrap a:hover { color:#000; text-decoration:underline }
+.mainTranslation .transWrap img, 
+.mainTranslation .transWrap input, 
+.mainTranslation .transWrap select, 
+.mainTranslation .transWrap textarea { font:12px; vertical-align:middle }
+.mainTranslation #left .bar { height:22px; border:#D5D5D5 1px solid; border-bottom:#ddd 1px solid; background:url(http://foojoo.com.style.b2b.biz/style/news/images/translation.gif) repeat-x; padding:3px 10px }
+.mainTranslation #left .bar b { float:left; background:url(http://foojoo.com.style.b2b.biz/style/news/images/translation.gif) 0 -29px no-repeat }
+.mainTranslation #left .bar b a { display:block; background:url(http://foojoo.com.style.b2b.biz/style/news/images/translation.gif) right -52px no-repeat; padding:0 10px; *padding:2px 10px 0;
+line-height:22px; *line-height:20px;
+color:#fff }
+.mainTranslation #left .con { border:#d5d5d5 1px solid; border-top:0; padding:1px; }
+.mainTranslation #left { float:left; width:630px }
+.mainTranslation #left .transList ul { padding:15px 25px; overflow:auto; *display:inline-block
+}
+.mainTranslation #left .transList ul.s { background:#F9F9F9; border-bottom:#E5E5E5 1px solid }
+.mainTranslation #left .transList li { float:left }
+.mainTranslation #left .transList li.l1 { width:45% }
+.mainTranslation #left .transList li.l2 { width:25% }
+.mainTranslation #left .transList li.l3 { width:20% }
+.mainTranslation #left .transList li.l4 { width:10% }
+.mainTranslation #left .transList li a { display:inline-block; font-size:14px; color:#36c; text-decoration:none; overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.mainTranslation #left .transList li a span { font-size:12px; font-family:"宋体"; color:#999 }
+.mainTranslation #left .transList li b a { display:inline-block;border:#E5E5E5 1px solid; background:#fff; padding:0 5px; *padding:2px 5px 0;
+line-height:20px; *line-height:18px;
+font-family:"宋体"; font-weight:normal;cursor:pointer; }
+.mainTranslation #left .transList li b { *display:inline
+}
+.mainTranslation #left .transDetail .transCon li { padding:30px 20px; font-weight:bold; font-size:14px; vertical-align:bottom }
+.mainTranslation #left .transDetail .transCon li.s { background:#F9F9F9; border-bottom:#E5E5E5 1px solid }
+.mainTranslation #left .transDetail .transCon li h1 { display:inline; font-family:"黑体"; font-weight:bold; font-size:30px }
+.mainTranslation #left .transDetail .transTrade { border-top:#e5e5e5 1px solid; padding:30px 20px; font-family:"宋体"; overflow:auto; *display:inline-block
+}
+.mainTranslation #left .transDetail .transTrade li { float:left; display:inline; width:152px; border:#E5E5E5 1px solid; background:#fff; padding:4px 10px 2px; margin:5px 10px; vertical-align:bottom }
+.mainTranslation #left .transDetail .transTrade li a { white-space:nowrap }
+.mainTranslation #right .bar { background:url(http://foojoo.com.style.b2b.biz/style/news/images/translation.gif) 0 -75px repeat-x; border:#ccc 1px solid; border-bottom:0; padding:0 10px; margin:10px 0 0 }
+.mainTranslation #right .bar b { display:block; border-bottom:#ccc 1px solid; padding:4px 5px 0px 5px; line-height:30px }
+.mainTranslation #right .con { border:#ccc 1px solid; border-top:0; padding:10px 20px }
+.mainTranslation #right { float:right; width:255px }
+.mainTranslation #right .search { border:#ccc 1px solid; padding:1px; margin:10px 0 0 }
+.mainTranslation #right .search ul { background:url(http://foojoo.com.style.b2b.biz/style/news/images/translation.gif) 0 -106px repeat-x; padding:10px }
+.mainTranslation #right .search li { padding:5px 0 }
+.mainTranslation #right .search li input.text { width:200px; color:#797979; }
+.mainTranslation #right .search li input.btn { margin:0 0 0 5px }
+.mainTranslation #right .search li select.select { width:122px }
+.mainTranslation #right .wordGate ul { overflow:auto; *display:inline-block
+}
+.mainTranslation #right .wordGate li { float:left; width:24.8%; line-height:28px; font-family:"宋体"; color:#aaa; vertical-align:bottom }
+.mainTranslation #right .siteGate ul { overflow:auto; *display:inline-block
+}
+.mainTranslation #right .siteGate li { float:left; width:33.2%; line-height:28px; font-family:"宋体"; color:#aaa; vertical-align:bottom }
+/************************************
+ mainTranslation Page Style
+ ************************************/
+.mainTranslation .newPage { clear:both; padding:20px; font-size:11px; font-family:Tahoma, Verdana, Simsun, Microsoft YaHei, Arial Unicode MS, Mingliu, Arial, Helvetica; color:#555; text-align:center }
+.mainTranslation .newPage select { vertical-align:bottom }
+.mainTranslation .newPage span, 
+.mainTranslation .newPage a { display:inline-block; border:#ccc 1px solid; background:#fff; margin:0 2px; padding:0 5px; line-height:180%; color:#555; vertical-align:middle }
+.mainTranslation .newPage span,
+.mainTranslation  .newPage a { *display:inline
+}
+.mainTranslation .newPage a:hover,
+.mainTranslation .newPage span.s {border:#19938b 1px solid; background:#19938b; color:#fff }
+/********************
+ 业界精英和报刊书籍
+*********************/
+.mainYJJY .newsList ul{ border-bottom:dashed 1px #CCCCCC; padding:5px 0px 3px 0px;}
+.mainYJJY .newsList ul.zhishi_class{border-bottom:0px; padding:5px 0px 3px 0px;}
+.mainBook .tradeProduct { padding:0 }
+.mainBook .tradeProduct dl { clear:both; height:80px; overflow:hidden; background-position:left bottom; background-repeat:repeat-x; padding:10px }
+.mainBook .tradeProduct dl.s { background:none }
+.mainBook .tradeProduct dt { float:left; width:80px }
+.mainBook .tradeProduct dd { float:right; width:138px }
+.mainBook .tradeProduct dd h3 { font-weight:bold; color:#000 }
+.mainBook .tradeProduct dd h4 { color:#666 }
+.mainBook .mainRightA .conB{ margin-bottom:10px; height:100%; overflow:hidden}
+.mainBook .tit_lxa{ overflow:hidden; *display:inline-block; }
+.mainBook .tit_lxc{ float:left; padding:0px; width:110px;}
+.mainBook .tit_detail{ float:none; overflow:hidden; padding:0px 0px 20px; display:block; text-align:center; width:auto;}
+.mainBook .tit_lxzh{ float:right; width:500px;}
+.mainBook .tit_lxzt{ overflow:hidden}
+.mainBook ul.tit_lxd{ clear:both; overflow:hidden; *display:inline-block;}
+.mainBook ul.tit_lxd li{ float:left; padding:0px; text-align:left; list-style-type:none;}
+.mainBook ul.tit_lxd li{ width:245px;}
+.mainBook .tit_lxnr{ width:490px; padding-top:2px; line-height:24px; text-align:left; clear:both;}
+.mainBookContent .conB{ border:0px;}
+.mainBookContent .content,.mainYJJYCon .content{ font-size:12px;}
+.mainYJJYCon .content img.yjjyImg{ clear:none; float:right; display:inline; }
+.conBook { padding:0px }
+.conBook .bookList{padding:10px 15px}
+.conBook .bookList li { line-height:25px; height:25px; overflow:hidden; color:#999 }
+.conBook .bookList li a { color:#666 }
+.conBook .book_imglist { overflow:hidden; *display:inline-block;padding:10px 0px 10px 15px ; background:url(../images/line.gif) center bottom no-repeat}
+.conBook .book_imglist li { float:left; display:inline; width:110px; }
+.conBook .book_imglist li img { width:100px; height:130px; padding:2px; border:1px solid #DDD; }
+/*重写foot*/
+#foot .footNav .right li:first-child{ letter-spacing:-4px; }
+#foot .footNav .right li:first-child a{display:inline-block;vertical-align:middle; letter-spacing:normal;}
+#foot .footNav .right li:first-child a{ *display:inline;height:19px;margin:0px 0px 0px 1px; padding:0px; overflow:hidden; white-space:nowrap;}
+#foot .footNav .right li:first-child a:first-child{ margin-left:0px;}
+.newsDetailIn .content img{ max-width: 100% !important;}

@@ -1,0 +1,222 @@
+*{ margin: 0; padding: 0;}
+body{font-family: "Microsoft YaHei"; font-size: 14px; color: #333; line-height: 30px;background: #f2f4f5; }
+ul,li{ list-style: none;}
+dl{ margin-bottom: 0;}
+h1,h2,h3,h4,h5,h6,p,ul,li{ margin: 0;}
+a{ color: #333;}
+.login-box{background: #f2f4f5;}
+.top{height:30px;background: #fff; line-height: 30px;border-bottom: 1px solid #e5e9ea; position: relative; z-index: 999;}
+.top a{ font-size: 12px; color: #666;}
+.top-nav{ padding: 15px 0 0 0; line-height: 25px;}
+.top-nav a{ padding:0 12px;color: #666;}
+.login-header{ background: #fff; padding:10px 0;  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1); position: relative;}
+.login-header .logo .logo-ico{ line-height: 42px;margin-top: 10px;}
+.login-header .logo .logo-ico img {max-height:42px; float: left; }
+.login-header .logo strong{ float: left; font-size: 28px; font-weight: normal; color: #666; line-height:42px; position: relative; display: inline-block; margin:0 0 0 10px;/* padding-left: 10px;*/ vertical-align: middle;}
+.login-header .logo h1 em{ font-style: normal; font-weight: 100; font-size:24px; padding-left: 10px; margin-left: 10px; }
+.login-header .logo h1.logo-ico em{display: inline-block; vertical-align: top;}
+.login-header .logo h1 img{ max-height: 62px; display: inline-block; vertical-align: middle;}
+.login-header .tel{ font-size: 20px; font-weight: 100; line-height: 62px;}
+.login-header .tel span{ color: #faa401;}
+.logo-nav { background: #fff; line-height: 32px; border-top:1px solid rgba(255,255,255,0.1);}
+.logo-nav a{ display: inline-block; padding: 0 20px; font-size: 14px; color: #333; }
+.login-bg{ background-image: url(../images/login_bg.jpg); background-color: #232426; background-repeat: no-repeat; background-position:top left; background-size:100%; min-height: calc(100vh - 245px);}
+.login-main{background: #fff;}
+.login-login.login-main{ background: none;}
+.reg-form-title{ padding:10px 2em; background:#f8f8f8; color:#000; border-bottom:1px solid #f1f1f1;font-size:14px; line-height: 24px;}
+.reg-form-title span{ float:right; color: #888; font-size: 12px;}
+ul.process{ border-top:2px solid #e6e6e6; display:block; width:500px; _width:320px; margin: 50px auto 30px;}
+ul.process li{position:relative; margin-top:-13px;width:25%; display:inline; float:left}
+ul.process li b.line{ display:inline-block;font:nomal 0px/2px "simsun"; width:100%; height:2px; background:#64b53c; position:absolute; left:0; top:11px; z-index:1 }
+ul.process li i{ width:100%;text-align:center; color:#999;  display:block; font-style: normal;}
+ul.process li i.text{ padding-top:6px; font-size:12px; line-height: 22px;}
+ul.process li i.number{ border:2px solid #e6e6e6; width:22px; height:22px; margin:0 auto; font:normal 14px/18px "arial"; border-radius:20px; background:#fff; position:relative; z-index:2}
+ul.process li.this i.text{ color:#64b53c}
+ul.process li.this i.number{ border-color:#64b53c;background:#64b53c;color:#fff}
+
+.reg-main{ padding:10px 50px; margin-top: 30px; margin-bottom: 30px;}
+.regtips{line-height:26px;padding: 0px 20px;color:#ff4344; font-size: 12px;border: 1px solid #ffdbdb; background-color: #fff7f7; margin: 0 auto 20px; width: 600px;}
+.reg-form{ padding-left:60px;width: 550px; margin: 0px auto; padding-top:0; padding-bottom: 30px;}
+.login-login .reg-form{ width: 400px; background: #fff; padding: 50px; margin-top: 100px; float:right;}
+.reg-form li{ position:relative; padding:5px 0 5px 150px; line-height:30px; min-height:30px;}
+.login-login .reg-form li{ padding: 5px 0 15px 0;}
+.login-login .reg-form .reg-login{ padding-left: 0; text-align: right; font-size: 12px; color: #9B9B9B;}
+.login-login .reg-form label{ display: none;}
+.reg-form li span,.reg-form li label i{ color:#F00;}
+.reg-form li label i{ display:inline-block; margin-right:5px;}
+.reg-form li select,.reg-form li input{ line-height:18px; padding:8px 5px; border:solid 1px #ddd;}
+.reg-form li label{ position:absolute; left:0px;text-align:right; line-height:30px; display:inline-block; font-size:12px; color:#666; width:145px; padding-right: 5px; font-weight: 500;}
+.reg-form li input.reg-input{ border:solid 1px #ddd; line-height:18px; font-size: 14px; padding:10px 5px; outline:none; width:300px; float: none;}
+.reg-form li .reg-btn{ background:#ff7800; line-height:18px; padding:10px 0; color:#fff; border:none; outline:none; width:300px; text-align:center;}
+.reg-form li p.join-help{ color:#ff3f3f;}
+.reg-login{ text-align:left; line-height:40px; padding-left: 150px;}
+.reg-login a{ color:#F00;}
+.res-line { width:800px;  margin:70px auto 30px;}
+.res-line ul{ float:left; width:100%;}
+.res-line li{ display:inline-block; width:200px; text-align:center; position:relative; float:left; line-height:35px; font-size:14px; color:#585858;}
+.res-line li .num{ width:26px; height:26px; border-radius:50%; overflow:hidden; text-align:center; line-height:26px; background:#dddddd; color:#fff; font-size:14px; font-family:Arial, Helvetica, sans-serif; display:inline-block; position:relative; z-index:22;}
+.res-line li.on p.text{ color:#ff7800;}
+.res-line li.on .num,.res-line li.on:after,.res-line li.on:before{ background:#ff7800;}
+.res-line li:first-child:before,.res-line li:last-child:after{ display:none;}
+.res-line li:after{ content:''; display:inline-block; left:50%; right:0px; height:2px; background:#ddd; top:14px; position:absolute;}
+.res-line li:before{content:''; display:inline-block; right:50%; left:0px; height:2px; background:#ddd; top:14px; position:absolute;}
+
+.iBox{height:40px;width:300px;position:relative;display:inline-block;float:left;}
+input.iText{width:268px;height:38px;background:none;line-height: 38px;padding: 0 20px 0 10px;float:left;padding-right:20px;border:1px solid #ddd;z-index:10;position:relative;font-size:12px;}
+.VerText{width: 93px;height:38px;background:none;line-height:38px;padding: 0 0 0 5px;float:left;border:1px solid #d5d5d5;font-size: 12px;}
+#verifiyCode{width: 187px;}
+.iBox img{margin: 0px 5px 0 9px;float:left;}
+.iBox a{font-size:12px;float:left;line-height: 40px;color: #999;margin-left:10px;width: 60px;white-space: nowrap;text-decoration: none;}
+.iBox a:hover{color:#f52c2c;}
+.VerBtn{width:106px;height: 38px;/*margin-left:10px;*/display:block;float:left;background:#f4f4f4;border:1px solid #ddd;font-size:12px;color:#333;cursor:pointer; outline: none;}
+.VerGrayBtn{width:106px;height: 38px;display:block;float:left;background:#f4f4f4;border:1px solid #ddd;font-size:12px;color:#999; border-left: none;}
+
+.reg-success{ font-family:"Microsoft YaHei"; padding-top:40px;text-align:center; padding-bottom:50px;}
+.reg-success h6{ line-height:60px; border-bottom:dashed 1px #ddd; font-size:20px;color:#f68e3a; margin-bottom:40px; padding-bottom:20px;}
+.reg-success h6 img{ vertical-align:middle; margin-right:5px;}
+.reg-success-text{ line-height:30px; color:#000;}
+.reg-success-text p a{ color:#f68e3a;}
+.reg-success-text .p1{ font-size:12px; color:#999;}
+.reg-form{ padding-left: 0; font-family: "Microsoft YaHei";}
+.reg-form li{ position: relative;}
+.reg-form li .tips{ position: absolute; right: -240px; top: 0; padding: 10px; 
+    width: 320px; line-height: 22px; color: #777f84;  font-size: 12px;
+font-family: "Microsoft YaHei"; display: none;}
+.reg-form li.selected .tips{ display: inline-block;z-index:5;}
+/* .reg-form li .tips:before {content: '';position: absolute;top: 10px;left: -10px;width: 0;height: 0;border-right: 10px solid #E4E4E2;border-bottom: 10px solid transparent;
+border-top: 10px solid transparent; } */
+.reg-form li .tips:after { content: ''; position: absolute;top: 11px;left: -9px;width: 0;height: 0;border-bottom: 9px solid transparent;border-right: 9px solid #fff; border-top: 9px solid transparent; }
+.reg-form li .tips p{ position: relative; padding-left: 10px;}
+.reg-form li .tips p:after{ content: ''; position: absolute; width: 4px; height: 4px;border-radius: 50%; overflow: hidden; left: 0; background: #999; top: 50%;}
+.reg-form li.selected input.reg-input{ border-color: #64b53c ;}
+.reg-form li.on .tips{ display: block; border-color:#64b53c ; background: #e6ffe6; color: #64b53c;z-index:3;}
+.reg-form li.on .tips:before{border-right: 10px solid #64b53c;}
+.reg-form li.on .tips:after{border-right: 9px solid #e6ffe6;}
+.reg-form li.on .tips p:after{ display: inline-block; content:'';width:14px; height:14px;background-image: url(../images/li_ok.gif); 
+background-position: center center; background-repeat: no-repeat; position: absolute; top: 50%; margin-top: -8px; left: 0px;}
+.reg-form li.on .tips p{ padding-left:20px;}
+.reg-form li.on .tips p img{ vertical-align: middle; margin-right: 5px;}
+
+.reg-form li.error .tips{ display: block; border-color:#ff3300 ; background: #fff1e4; color: #ff3300;z-index:3;}
+.reg-form li.error .tips:before{border-right: 10px solid #ff3300;}
+.reg-form li.error .tips:after{border-right: 9px solid #fff1e4;}
+.reg-form li.error .tips p:after{ display: inline-block; content:'';width:14px; height:14px;background-image: url(../images/li_err.gif); 
+background-position: center center; background-repeat: no-repeat; position: absolute; top: 50%; margin-top: -8px; left: 0px;}
+.reg-form li.error .tips p{ padding-left:20px;}
+.reg-form li.error .tips p img{ vertical-align: middle; margin-right: 5px;}
+
+input::-webkit-input-placeholder {color: #999;font-size: 12px;}
+input[type="button"], input[type="submit"], input[type="reset"],input[type="text"],input[type="password"] {
+    -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;
+}
+img{ margin: 0; padding: 0; border: none; outline: none;}
+textarea {  -webkit-appearance: none;}
+.footer{ padding:20px 0; text-align:center; line-height: 30px;}
+.footer a{ font-size: 14px; display: inline-block; padding: 0 5px;}
+
+
+.payment{ font-family:"微软雅黑"; padding-top:40px; background: #fff; padding:30px 100px;position: relative;
+    background-color: #fff;
+
+    box-sizing: border-box;}
+.pay-title,.reg-data-title{ line-height:35px; position:relative; height:40px;}
+.pay-title:after,.reg-data-title:after{ content:''; display:inline-block; position:absolute; top:50%; left:0px; right:0px; height:1px; background:#ddd;}
+.pay-title span,.reg-data-title span{ display:inline-block; position:absolute; left:0px; top:0px; padding:0 20px; background:#fff; z-index:1; line-height:40px; font-size:16px; color:#333;}
+.pay-box{ padding:20px 0; text-align:center;}
+
+.pay-box li{ border:solid 1px #ddd; padding:35px 20px; position:relative; display:inline-block; margin:0 18px; width:240px; cursor:pointer;}
+.pay-box li.on{ border-color:#ff7800;}
+.pay-box li .t{ display:inline-block; padding:5px 10px; line-height: 20px; background:#999999; color:#fff; font-size:14px; position:absolute; right:0px; top:0px;}
+.pay-box li.on .t{ background:#ff7800;}
+.pay-box li .pay-money { display:inline-block; font-size:26px; color:#999999;}
+.pay-box li.on  .pay-money{ color:#ff7800}
+.pay-box li .pay-money span{ font-size:18px;}
+.pay-box li .pay-time{display:inline-block; font-size:16px; color:#999999; padding-left:20px; position:relative;}
+.pay-box li .pay-time:after{ content:''; position:absolute; left:5px; width:1px;  top:2px; bottom:2px; background:#ddd;}
+.pay-box li  .tips{ position:absolute; left:0px; right:0px; bottom:0px; background:#f7f7f7; text-align:center; line-height:20px;}
+.pay-box li.on .tips{ color:#ff7800;}
+.pay-box li.on:after{ content:''; position:absolute; right:0px; bottom:0px; background:url(http://member.foojoo.com/images/pay-bg.png) no-repeat center center; width:23px; height:18px;}
+.pay-total{ margin:40px 0; background:#f1f1f1; padding:10px 0; line-height:40px; font-size:18px; color:#333333; text-align:center;}
+.pay-total span{ color:#ff7800;}
+
+.pay-code{ text-align:center;}
+.pay-code li{ display:inline-block; margin:0 40px;}
+.pay-code li p{ line-height:40px;}
+.pay-code li p img{ vertical-align:middle; margin-right:5px; width:20px;}
+.thumb-code{ position:relative;}
+.thumb-code .thumb-tip{ position:absolute; background:rgba(0,0,0,.5); color:#fff; top:0px; left:0px; bottom:0px; right:0px; font-size:14px;}
+.thumb-code .thumb-tip .ico{ width:32px; height:32px; border-radius:50%; overflow:hidden; background-position:center center; background-repeat:no-repeat; margin:36px auto 0;}
+.thumb-code .thumb-tip .ico.zf{ background-image:url(http://member.foojoo.com/images/zf-ico.png);}
+.thumb-code .thumb-tip .ico.sb{ background-image:url(http://member.foojoo.com/images/sb-ico.png);}
+.thumb-code .thumb-tip .ico.cg{ background-image:url(http://member.foojoo.com/images/cg-ico.png);}
+.agreement{ padding:60px 0;}
+.agreement a{ font-size:14px; color:#25b2fc;}
+.pay-service{ text-align:center; padding:30px 0;}
+.pay-service li{ display:inline-block; width:20%; float:left; text-align:center;}
+.pay-service li .text{ font-size:14px; color:#666; padding-top:20px;}
+
+.logo-mt{ margin-top: 90px;}
+.logo-footer{ position: fixed; left: 0; right: 0; bottom: 0;}
+.get-paw{text-align: center; padding: 50px 0;}
+.get-paw img{ width: 300px;}
+.get-paw h1{font-size: 24px; text-align:center; line-height: 60px; font-weight: 100; padding-bottom: 50px;}
+.get-paw h1 a{color: #faa401}
+.login-alter {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #a2a2a2;
+  }
+.login-alter::before,
+.login-alter::after {
+    content: "";
+    width: 29%;
+    display: inline-block;
+    position: relative;
+    height: 1px;
+    background-color: #e8eaee;
+    bottom: 4px;
+  }
+.login-alter::before {
+    margin-right: 14px;
+  }
+.login-alter::after {
+    margin-left: 14px;
+  }
+.login-alter-icon {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 14px auto 0;
+  }
+.login-alter-icon span { display: inline-block;
+    width: 36px;
+    background: #00bb00; border-radius: 50%; overflow: hidden; text-align: center; line-height: 36px; color: #fff; font-size: 24px;
+    height: 36px;
+  }
+@media (max-width:960px){.reg-form li.selected .tips{ position: static; width: 100%; padding: 0;}}
+@media (max-width:760px){
+    .login-header .tel{ display: none;}
+    .login-header .logo h1 img{ max-width: 200px; max-height: 50px;}
+    .login-login .reg-form{ width: 100%; margin-top: 20px; padding: 30px;}
+    .reg-form li input.reg-input,.reg-form li .reg-btn{ width: 100%;}
+    ul.process,.regtips{ width: 100%;}
+    .reg-form{ width: 100%;}
+    .reg-form li,.reg-login{ padding: 5px 10px;}
+    .reg-main{ padding: 10px;}
+    .reg-form li label{ position: static; width: 100%; text-align: left;}
+    .login-bg{ min-height: calc(100vh - 90px);}
+    .footer{ padding: 10px 20px; line-height: 24px;}
+    #verifiyCode{ width: 50%; border-radius: 0;}
+    .payment{ padding: 20px 10px;}
+    .pay-title, .reg-data-title{ height: auto; }
+    .pay-title span, .reg-data-title span{ position: static;line-height: 24px;}
+    .pay-title:after, .reg-data-title:after{ display: none;}
+    .pay-box li{ margin-bottom: 20px;}
+    .pay-total{ margin: 10px; padding: 10px; line-height: 30px; font-size: 14px;}
+    .pay-code li{ width: 50%; float: left; margin: 0; padding: 0 15px;}
+    .pay-code li .thumb-code img{ width: 100% !important;}
+    .get-paw{text-align: center; padding: 20px 0;}
+    .get-paw img{ width: 100%;}
+    .get-paw h1{font-size: 20px;}
+}

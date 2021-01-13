@@ -1,0 +1,89 @@
+a,a:hover{ text-decoration: none;}
+.keyword-list{ padding-top:28px; font-family:'Microsoft YaHei' }
+.keyword-list .keyword-list-left{ }
+.keyword-list .keyword-list-left ul li{ border-bottom:dashed 1px #ddd; padding:0 19px; position:relative; padding-left:16px;}
+.keyword-list .keyword-list-left ul{ position:relative; min-height:800px;}
+.keyword-list .keyword-list-left ul li:after{ content:''; display:inline-block; position:absolute; left:0px; width:0px; top:0px; bottom:0px;background:#f7f7f7; z-index:0;transition: all .6s ease-out 0s;}
+.keyword-list .keyword-list-left ul li:hover:after{ width:100%;}
+.keyword-list .keyword-list-left ul li .keyword-list-text{ position:relative; z-index:1;}
+.keyword-list .keyword-list-left ul li h3{ padding:21px 0; line-height:16px;}
+.keyword-list .keyword-list-left ul li h3 a{ font-size:16px; color:#333; font-weight:400;}
+.keyword-list .keyword-list-left ul li p{ font-size:14px; color:#999; padding:24px 0 26px;}
+.keyword-list .keyword-list-left ul li p span{ float:right; font-size:12px; color:#999; line-height:24px; display:inline-block;}
+.icon { /* 通过设置 font-size 来改变图标大小 */width: 1em; height: 1em; /* 图标和文字相邻时，垂直对齐 */ vertical-align: -0.15em; /* 通过设置 color 来改变 SVG 的颜色/fill */ 
+fill: currentColor; /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示normalize.css 中也包含这行 */ overflow: hidden;
+        }
+.keyword-list .keyword-list-left ul li p span .icon{ font-size:24px; margin-right:5px;vertical-align:top; margin-top:-1px;} 
+.keyword-list .keyword-list-left ul li p.on span{ color:#ff7600;}
+.keyword-list .keyword-list-left ul li:hover{}
+.keyword-list-right{ font-family:'Microsoft YaHei'  }
+.keyword-list-right:after{ content:''; display:inline-block; position:absolute; top:0px; left:0px; width:1px; bottom:0px; background:#ddd;}
+.keyword-list-right h3{ border-bottom:solid 1px #ddd; font-size:18px; color:#666;font-weight:100; padding:0 0 6px 0;}
+.keyword-list-right h3 span { color:#ff7600;font-size:18px; font-weight:100;}
+.keyword-list-right li{ padding:10px 0 15px 0;}
+.keyword-list-right li h4{ font-size:14px; color:#333; font-weight:400;}
+.keyword-list-right li p{ font-size:12px; color:#666; padding:5px 0 0 0;}
+.keyword-list-right li p.url,.keyword-list-right .gg .url{ color:#ff7600;}
+.keyword-list-right .gg{ border-top:solid 1px #ddd; padding:10px 0;}
+.keyword-list-right .gg .tit,.keyword-list-right .gg .tit span .icon{ font-size:14px; color:#0048b6;}
+.keyword-list-right .gg .desc{ font-size:12px; line-height:20px; color:#666; padding:5px 0;}
+
+.page input{ width: auto;}
+.pr_common_list{font-family:'Microsoft YaHei' }
+.pr_common_list .title{ border-bottom:solid 3px #b0d538; line-height:24px; padding-bottom:5px;}
+.pr_common_list .title.p-bg2{ border-bottom:solid 3px #51cba5;}
+.pr_common_list .title.p-bg3{ border-bottom:solid 3px #51cacb;}
+.pr_common_list .title.p-bg4{ border-bottom:solid 3px #cb6c51;}
+.pr_common_list .title.p-bg5{ border-bottom:solid 3px #9ec34a;}
+.pr_common_list .title.p-bg6{ border-bottom:solid 3px #5dc98d;}
+.pr_common_list .title.p-bg7{ border-bottom:solid 3px #4fb8c5;}
+.pr_common_list .title .title-name{ float:left;}
+.pr_common_list .title .title-name .title-num{ display:inline-block; padding:0 5px; color:#fff; background:#b0d538; font-size:16px; margin-right:10px;}
+.pr_common_list .title.p-bg2 .title-name .title-num{ background:#51cba5;}
+.pr_common_list .title.p-bg3 .title-name .title-num{ background:#51cacb;}
+.pr_common_list .title.p-bg4 .title-name .title-num{ background:#cb6c51;}
+.pr_common_list .title.p-bg5 .title-name .title-num{ background:#9ec34a;}
+.pr_common_list .title.p-bg6 .title-name .title-num{ background:#5dc98d;}
+.pr_common_list .title.p-bg7 .title-name .title-num{ background:#4fb8c5;}
+.pr_common_list .title .title-name strong{ font-size:18px; color:#333; font-weight:normal;}
+.pr_common_list .title .title-name em{ font-style:normal; font-size:16px; color:#999;}
+.pr_common_list .title span a{ padding:0 20px; font-size:14px; color:#666; display:inline-block; position:relative;}
+.pr_common_list .title span a:hover{ color:#ff7600;}
+.pr_common_list .title span a:last-child{ padding-right:5px;}
+.pr_common_list .title span a:after{ content:''; position:absolute; width:1px; top:5px; bottom:5px; right:0px; background:#ddd;}
+.pr_common_list .title span a:last-child:after{ background:#fff;}
+.product-div{ padding-bottom: 35px;}
+.pr_common_list .product-div-list{ padding:25px; border:solid 1px #ddd; border-top:none;}
+.pr_common_list .product-div-list li{ width:20%; float:left; text-align:center; border-bottom:dashed 1px #ddd; position:relative; padding:30px 0 10px;}
+.pr_common_list .product-div-list li:after{ content:''; display:block; position:absolute; left:0px;border-left:dashed 1px #ddd; top:0px; bottom:0px;}
+.pr_common_list .product-div-list li:nth-child(5n+1):after{ border-color:#fff;}
+.pr_common_list .product-div-list li:nth-child(6),.pr_common_list .product-div-list li:nth-child(7),
+.pr_common_list .product-div-list li:nth-child(8),.pr_common_list .product-div-list li:nth-child(9),.pr_common_list .product-div-list li:nth-child(10){ border-bottom:none;}
+.pr_common_list .product-div-list li a{ display:inline-block; height:158px; overflow:hidden;}
+
+.pr_common_list .product-div-list li .name{ margin-top:33px;transition: all 0.3s ease-out 0s; font-size:14px; color:#333;white-space:nowrap;word-break:keep-all;overflow:hidden;text-overflow:ellipsis; width:150px;text-align:center;}
+.pr_common_list .product-div-list li .thumb{ height: 78px; vertical-align: middle; line-height: 78px; }
+.pr_common_list .product-div-list li .thumb img{ padding:0; border:solid 1px #ddd; display: inline-block;vertical-align: middle; max-height: 78px;}
+.pr_common_list .product-div-list li .company-name{line-height:24px; height:0;transition: all 0.3s ease-out 0s; overflow:hidden;}
+.pr_common_list .product-div-list li .company-name p{white-space:nowrap;word-break:keep-all;overflow:hidden;text-overflow:ellipsis; width:140px; text-align:center;}
+.pr_common_list .product-div-list li .product-text{ height:0;}
+.pr_common_list .product-div-list li:hover .name{ margin-top:10px;}
+.pr_common_list .product-div-list li:hover .company-name{ height:auto;}
+.pr_common_list .product-div-list li.more a{ padding-top:60px; height:98px;}
+.pr_common_list .product-div-list li.more p{ line-height:45px; text-align:center; font-size:16px;}
+.pr_common_list .product-div-list li.more p.more-tips span{ width:15px; height:15px; border-radius:50%; overflow:hidden; margin:0 5px; background:#878787; display:inline-block;}
+.pr_common_list .product-div-list li.more:hover p.more-tips span{ background:#55ab32;}
+.pr_common_list .product-div-list li.more:hover a p{ color:#55ab32;}
+.icon { /* 通过设置 font-size 来改变图标大小 */width: 1em; height: 1em; /* 图标和文字相邻时，垂直对齐 */ vertical-align: -0.15em; /* 通过设置 color 来改变 SVG 的颜色/fill */ 
+fill: currentColor; /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示normalize.css 中也包含这行 */ overflow: hidden;
+        }
+.recommended-stone{ border:solid 1px #ddd; padding:20px; position:relative;margin-top: 30px;}
+.recommended-stone .tit{ position:absolute; left:0px; right:0px; line-height:30px; top:-15px; text-align:center;}
+.recommended-stone .tit span{ display:inline-block; font-size:18px; color:#333; background:#fff; padding:0 20px; position:relative; border-left:solid 1px #ddd; border-right:solid 1px #ddd;}
+.recommended-stone .recommended-stone-box{ width:20%; float:left; position:relative; text-align:center; padding:20px 0; line-height:24px;}
+.recommended-stone .recommended-stone-box:after{ content:''; position:absolute; left:0px; right:0px; bottom:0px; top:0px; border-right:dashed 1px #ddd; z-index:1; }
+.recommended-stone .recommended-stone-box.last:after{ display:none; border:none;}
+.recommended-stone .recommended-stone-box p a{ font-size:14px;}
+/* .recommended-stone .recommended-stone-box .recommended-stone-box-text{position:absolute;top: 50%;left: 50%; width: 100%;transform: translate3d(-50%,-50%,0); z-index:2} */
+.recommended-stone .recommended-stone-box .recommended-stone-box-text p{ padding:0 30px;line-height:24px; height: 72px; overflow: hidden; position: relative; z-index: 3;}
+.mainLocation{overflow: hidden;}

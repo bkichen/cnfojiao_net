@@ -1,0 +1,61 @@
+/************BG STYLE************/
+.productHot ul { background:url(../../../common/images/main_bg.gif) no-repeat }
+.productList ul, .productInfoIn .name,.productContact h6 { background:url(../../../common/images/h_x_line2.gif) no-repeat }
+.productInfoIn { background:url(../../../product/images/productinfo_bg.gif) no-repeat }
+/************CUT STYLE************/
+.cut { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; /* for IE */ -o-text-overflow:ellipsis; /* for Opera */ -icab-text-overflow:ellipsis; /* for iCab */ -khtml-text-overflow:ellipsis; /* for Konqueror Safari */ -moz-text-overflow:ellipsis; /* for Firefox,mozilla */ -webkit-text-overflow:ellipsis; /* for Safari,Swift*/ }
+/************MAIN STYLE************/
+.productHot { padding:10px 15px }
+.productHot ul { background-position:-287px -478px; padding-left:20px }
+.productHot li { line-height:28px;white-space:nowrap;word-break:keep-all; overflow:hidden;text-overflow:ellipsis; }
+.productCity dt { clear:both; height:25px; border-bottom:#ebebeb 1px solid; position:relative }
+.productCity dt span { display:block; height:25px; border:#ebebeb 1px solid; background:#fff; border-bottom:0; padding:0 20px; line-height:25px; color:#ff4200; position:absolute; left:10px; top:0 }
+.productCity dt a { color:#ff4200 }
+.productCity dd { clear:both; padding:5px 0 10px }
+.productCity dd a { display:inline-block; border-right:#aaa 1px solid; padding:0 10px; margin-top:5px; line-height:14px; color:#666; vertical-align:bottom }
+.productCity dd a { *display:inline
+}
+.productCate { padding:0 }
+.productCate dl { clear:both; background:#fff; overflow:auto; *display:inline-block
+}
+.productCate dl.s { background:#f3fbfa }
+.productCate dt { float:left; display:inline; width:80px; line-height:14px; color:#ff4200; font-size:14px; padding:20px 10px 0; text-align:center; overflow:hidden }
+.productCate dd { float:right; display:inline; width:517px; border-left:#fff 1px solid; padding:10px 10px 20px; overflow:hidden}
+.productCate dd a { display:inline-block; border-right:#aaa 1px solid; margin-top:10px; padding:0 10px; line-height:14px; color:#666; vertical-align:bottom }
+.productCate dd a { *display:inline
+}
+.productCate dd a.s{ border-right:0px;}
+.productSearchOut { clear:both; border:#d5efee 1px solid; padding:1px }
+.productSearchIn { background:#effafa; padding:15px }
+.productList ul { clear:both; background-position:left bottom; background-repeat:repeat-x; padding:10px; overflow:auto; *display:inline-block
+}
+.productList li { float:left; display:inline; margin:0 10px; color:#999; vertical-align:bottom }
+.productList li.photo { background:#fff; width:100px; border:solid 1px #eee; text-align:center; padding:1px; }
+.productList li.name { width:200px }
+.productList li.company {color:#000;  width:447px; line-height:30px }
+.productList li.company a{ color:#000 !important;}
+.productList li.cate { width:107px; padding-top:20px; text-align:center }
+.productList li.time { width:107px; padding-top:20px; text-align:center }
+.productInfoOut { clear:both; border:#ace0de 1px solid; padding:2px }
+.productInfoIn { background-repeat:repeat-x }
+.productInfoIn .name { clear:both; height:25px; padding:20px 20px 40px; background-position:left bottom; background-repeat:repeat-x; position:relative }
+.productInfoIn .name h1 { line-height:25px; font-size:14px; font-weight:bold; color:#19938b; text-align:center }
+.productInfoIn .name h1 a { color:#19938b }
+.productInfoIn .name h6 { background:#f4f4f4; padding:0 10px; line-height:25px; color:#666; position:absolute; right:20px; bottom:1px }
+.productInfoIn .photo { clear:both; padding:20px; overflow:auto; *display:inline-block
+}
+.productInfoIn .photo .fl { width:230px; line-height:25px; text-align:center }
+.productInfoIn .photo .fl img { display:block; margin:0 auto }
+.productInfoIn .photo .fr{width:344px}
+.productInfoIn .photo .fr li{padding:5px 0}
+.productInfoIn .time{ clear:both; padding:20px; background:#fbfbfb; border-top:#ececec 1px solid; line-height:25px; text-align:center}
+.productContact{clear:both; border:#ace0de 1px solid; border-top:#29c3b9 2px solid}
+.productContact h6{ clear:both; border-top:#efefef 2px solid; background-repeat:repeat-x; background-position:left bottom; padding:10px 20px; line-height:25px; font-size:14px; font-weight:bold; color:#19938b}
+.productContact h2{clear:both; padding:20px; line-height:25px; color:#666}
+.productContact ul{ clear:both; padding:20px; line-height:25px; color:#666}
+.productClass ul{ clear:both; padding:10px 0px; overflow: hidden; *display:inline-block}
+.productClass li{float:left; display:inline; width:49.9%; overflow:hidden; height:25px; line-height:25px; vertical-align:bottom }
+.productClass li a{ display:block; width:9em; margin-left:5px; overflow:hidden}
+/***���Źؼ���***/
+.hotKeyWord{ white-space: normal}
+.hotKeyWord a{ display:inline-block; margin:0px; padding:0px 5px 0px 0px;white-space:nowrap;  line-height:25px; color:#898989}
